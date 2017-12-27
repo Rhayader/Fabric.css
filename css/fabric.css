@@ -1,0 +1,27 @@
+/*Fabric main stub
+  Used to import other modules*/
+/*External packages*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/*Internal packages*/
+@import url('fabric--elements.css');
+@import url('fabric--typography.css');
+@import url('fabric--shadows.css');
+@import url('fabric--measurements.css');
+@import url('fabric--icons.css');
+@import url('fabric--colors.css');
+
+/*
+  Additional resets
+*/
+.fabric--container a {
+  text-decoration: none;
+  text-color: inherit;
+}
+
+:target:before {
+content:"";
+display:block;
+height:5.6px; /* fixed header height*/
+margin:-5.6px 0 0; /* negative fixed header height */
+}

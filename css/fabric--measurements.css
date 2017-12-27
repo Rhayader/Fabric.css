@@ -1,0 +1,35 @@
+/*Heights*/
+.fabric--height--56dp, .fabric--app--bar, .fabric--app--bar--spacing {
+  height: 56px;
+}
+
+.fabric--height--80dp {
+  height: 80px;
+}
+
+.fabric--height--8dp {
+  height: 8px;
+}
+
+.fabric--height--72dp, .fabric--card .fabric--card--header {
+  height: 72px;
+}
+
+.fabric--height--16dp {
+  height: 16px;
+}
+/*Widths*/
+.fabric--width--100, .fabric--app--bar, .fabric--background {
+  width: 100%;
+}
+
+/*Placement*/
+.fabric--bottom--right {
+  bottom: 28px;
+  right: 28px;
+}
+
+.fabric--top--left {
+  top: 28px;
+  left: 28px;
+}

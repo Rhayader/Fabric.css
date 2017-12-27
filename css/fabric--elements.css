@@ -1,0 +1,275 @@
+/*
+  UI Elements
+*/
+
+/*Switch*/
+.fabric--switch{
+
+}
+
+/*Card*/
+.fabric--card {
+  border-radius: 2px;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+
+.fabric--card .fabric--card--header {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  margin: 16px;
+  padding: 0px;
+  min-height: 40px;
+  max-height: 40px;
+}
+
+.fabric--card .fabric--card--header .fabric--icon {
+  float: left;
+  height: 24px;
+  width: 24px;
+  margin-top: 8px;
+  margin-right: 16px;
+}
+
+.fabric--card .fabric--card--header p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.fabric--card .fabric--card--header .fabric--body--1 {
+  opacity: .54;
+}
+
+.fabric--card .fabric--card--media {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 56.25%;
+  max-height: 56.25%;
+  overflow: hidden;
+}
+
+.fabric--card .fabric--card--media img {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fabric--card .fabric--card--text {
+  padding: 16px;
+}
+
+.fabric--card .fabric--card--action--area {
+
+}
+
+.fabric--card:active {
+
+}
+
+/*Raised button*/
+.fabric--raised--button {
+
+}
+
+.fabric--raised--button:active {
+
+}
+
+/*Search bar*/
+.fabric--search--bar {
+
+}
+
+.fabric--search--bar:active {
+
+}
+
+/*Refresh indicator*/
+.fabric--refresh--indicator {
+
+}
+
+/*App bar*/
+.fabric--app--bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.fabric--app--bar .fabric--title {
+  padding-top: 14px;
+  padding-left: 32px;
+}
+
+.fabric--app--bar .material-icons {
+  margin-top: 16px;
+}
+
+.fabric--app--bar .fabric--container {
+  width: auto;
+  margin-left: 16px;
+}
+
+.fabric--app--bar .fabric--container--item {
+  float: left;
+  margin: 0px;
+  width: auto;
+}
+
+.fabric--app--bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.fabric--app--bar li {
+    float: left;
+}
+
+.fabric--app--bar .fabric--button {
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.fabric--app--bar--spacing {
+  position: relative;
+  display: block;
+  content: "&nbsp;";
+  opacity: 0;
+}
+
+/*Floating action button*/
+.fabric--fab {
+  position: fixed;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  padding: 0px;
+  text-align: center;
+}
+
+.fabric--fab .fabric--icon {
+  padding-top: 16px;
+}
+
+.fabric--fab:active {
+
+}
+
+/*Snackbar*/
+.fabric--snackbar {
+
+}
+
+/*Bottom navigation bar*/
+.fabric--bottom--navigation--bar {
+
+}
+
+/*Menu*/
+.fabric--menu {
+
+}
+
+/*Submenu*/
+.fabric--sub--menu {
+
+}
+
+/*Navigation drawer*/
+.fabric--nav--drawer {
+
+}
+
+/*Right drawer*/
+.fabric--right--drawer {
+
+}
+
+/*Modal bottom sheet*/
+.fabric--modal--bottom--sheet {
+
+}
+
+/*Dialog*/
+.fabric--dialog {
+
+}
+
+/*Picker*/
+.fabric--picker {
+
+}
+
+/*
+  Typography elements
+*/
+
+.fabric--display--4 {
+
+}
+
+.fabric--display--3 {
+
+}
+
+.fabric--display--2 {
+
+}
+
+.fabric--display--1 {
+
+}
+
+.fabric--headline {
+
+}
+
+.fabric--title {
+
+}
+
+.fabric--subheading {
+
+}
+
+.fabric--body--2 {
+
+}
+
+.fabric--body--1 {
+
+}
+
+.fabric--caption {
+
+}
+
+.fabric--button {
+
+}
+
+/*Background*/
+.fabric--background {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.fabric--content {
+  padding: 16px;
+  width: auto;
+  height: auto;
+}
+
+.fabric--anchor {
+  opacity: 0;
+}
