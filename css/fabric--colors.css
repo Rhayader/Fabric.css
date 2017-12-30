@@ -13,6 +13,10 @@
   background-color: #BDE5F8;
 }
 
+.fabric--info--nobg {
+  color: #00529B;
+}
+
 .fabric--info--inverted {
   color: #BDE5F8;
   background-color: #00529B;
@@ -23,12 +27,44 @@
   background-color: #DFF2BF;
 }
 
+.fabric--success--nobg {
+  color: #4F8A10;
+}
+
+.fabric--success--inverted {
+  color: #DFF2BF;
+  background-color: #4F8A10;
+}
+
 .fabric--warning {
   color: #9F6000;
   background-color: #FEEFB3;
 }
 
+.fabric--warning--nobg {
+  color: #9F6000;
+}
+
+.fabric--warning--inverted {
+  color: #FEEFB3;
+  background-color: #9F6000;
+}
+
 .fabric--error {
   color: #D8000C;
   background-color: #FFD2D2;
+}
+
+.fabric--error--nobg {
+  color: #D8000C;
+}
+
+.fabric--error--inverted {
+  color: #FFD2D2;
+  background-color: #D8000C;
+}
+
+.fabric--seam, hr {
+  color: black;
+  opacity: .12;
 }
