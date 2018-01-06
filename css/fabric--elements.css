@@ -25,16 +25,18 @@
 }
 
 .fabric--card .fabric--card--header .fabric--icon {
-  float: left;
   height: 24px;
   width: 24px;
   margin-top: 8px;
   margin-right: 16px;
+  display: inline-block;
+  float: left;
 }
 
 .fabric--card .fabric--card--header p {
   margin: 0px;
   padding: 0px;
+  background-color: rgba(0,0,0,0);
 }
 
 .fabric--card .fabric--card--header .fabric--body--1 {
@@ -109,6 +111,7 @@
 }
 
 .fabric--app--bar .fabric--title {
+  float: left;
   padding-top: 14px;
   padding-left: 32px;
 }
@@ -117,15 +120,10 @@
   margin-top: 16px;
 }
 
-.fabric--app--bar .fabric--container {
+.fabric--app--bar .fabric--nav--element {
   width: auto;
   margin-left: 16px;
-}
-
-.fabric--app--bar .fabric--container--item {
   float: left;
-  margin: 0px;
-  width: auto;
 }
 
 .fabric--app--bar ul {

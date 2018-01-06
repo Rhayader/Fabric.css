@@ -22,6 +22,6 @@
 :target:before {
 content:"";
 display:block;
-height:5.6px; /* fixed header height*/
-margin:-5.6px 0 0; /* negative fixed header height */
+height:5.6rem; /* fixed header height*/
+margin:-5.6rem 0 0; /* negative fixed header height */
 }
