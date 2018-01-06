@@ -3,8 +3,7 @@
 */
 
 /*Switch*/
-.fabric--switch{
-
+.fabric--switch {
 }
 
 /*Card*/
@@ -36,11 +35,11 @@
 .fabric--card .fabric--card--header p {
   margin: 0px;
   padding: 0px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .fabric--card .fabric--card--header .fabric--body--1 {
-  opacity: .54;
+  opacity: 0.54;
 }
 
 .fabric--card .fabric--card--media {
@@ -74,30 +73,24 @@
 }
 
 .fabric--card:active {
-
 }
 
 /*Raised button*/
 .fabric--raised--button {
-
 }
 
 .fabric--raised--button:active {
-
 }
 
 /*Search bar*/
 .fabric--search--bar {
-
 }
 
 .fabric--search--bar:active {
-
 }
 
 /*Refresh indicator*/
 .fabric--refresh--indicator {
-
 }
 
 /*App bar*/
@@ -106,8 +99,8 @@
   top: 0px;
   left: 0px;
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;         /* Opera/IE 8+ */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
 }
 
 .fabric--app--bar .fabric--title {
@@ -127,14 +120,14 @@
 }
 
 .fabric--app--bar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .fabric--app--bar li {
-    float: left;
+  float: left;
 }
 
 .fabric--app--bar .fabric--button {
@@ -171,52 +164,42 @@
 }
 
 .fabric--fab:active {
-
 }
 
 /*Snackbar*/
 .fabric--snackbar {
-
 }
 
 /*Bottom navigation bar*/
 .fabric--bottom--navigation--bar {
-
 }
 
 /*Menu*/
 .fabric--menu {
-
 }
 
 /*Submenu*/
 .fabric--sub--menu {
-
 }
 
 /*Navigation drawer*/
 .fabric--nav--drawer {
-
 }
 
 /*Right drawer*/
 .fabric--right--drawer {
-
 }
 
 /*Modal bottom sheet*/
 .fabric--modal--bottom--sheet {
-
 }
 
 /*Dialog*/
 .fabric--dialog {
-
 }
 
 /*Picker*/
 .fabric--picker {
-
 }
 
 /*
@@ -224,43 +207,33 @@
 */
 
 .fabric--display--4 {
-
 }
 
 .fabric--display--3 {
-
 }
 
 .fabric--display--2 {
-
 }
 
 .fabric--display--1 {
-
 }
 
 .fabric--headline {
-
 }
 
 .fabric--title {
-
 }
 
 .fabric--subheading {
-
 }
 
 .fabric--body--2 {
-
 }
 
 .fabric--body--1 {
-
 }
 
 .fabric--caption {
-
 }
 
 .fabric--button {
@@ -270,7 +243,6 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
 }
 
 /*Background*/

@@ -1,72 +1,78 @@
-.fabric--primary, .fabric--app--bar, .fabric--container a, .fabric--container p, .fabric--card {
+.fabric--primary,
+.fabric--app--bar,
+.fabric--container a,
+.fabric--container p,
+.fabric--card {
   color: #000000;
   background-color: #ffffff;
 }
 
-.fabric--primary--inverted, .fabric--background {
-  color: rgba(255,255,255,.54);
-  background-color: rgba(0,0,0,.54);
+.fabric--primary--inverted,
+.fabric--background {
+  color: rgba(255, 255, 255, 0.54);
+  background-color: rgba(0, 0, 0, 0.54);
 }
 
 .fabric--info {
-  color: #00529B !important;
-  background-color: #BDE5F8 !important;
+  color: #00529b !important;
+  background-color: #bde5f8 !important;
 }
 
 .fabric--info--nobg {
-  color: #00529B  !important;
+  color: #00529b !important;
 }
 
 .fabric--info--inverted {
-  color: #BDE5F8 !important;
-  background-color: #00529B !important;
+  color: #bde5f8 !important;
+  background-color: #00529b !important;
 }
 
 .fabric--success {
-  color: #4F8A10 !important;
-  background-color: #DFF2BF !important;
+  color: #4f8a10 !important;
+  background-color: #dff2bf !important;
 }
 
 .fabric--success--nobg {
-  color: #4F8A10 !important;
+  color: #4f8a10 !important;
 }
 
 .fabric--success--inverted {
-  color: #DFF2BF !important;
-  background-color: #4F8A10 !important;
+  color: #dff2bf !important;
+  background-color: #4f8a10 !important;
 }
 
 .fabric--warning {
-  color: #9F6000 !important;
-  background-color: #FEEFB3 !important;
+  color: #9f6000 !important;
+  background-color: #feefb3 !important;
 }
 
 .fabric--warning--nobg {
-  color: #9F6000 !important;
+  color: #9f6000 !important;
 }
 
 .fabric--warning--inverted {
-  color: #FEEFB3 !important;
-  background-color: #9F6000 !important;
+  color: #feefb3 !important;
+  background-color: #9f6000 !important;
 }
 
 .fabric--error {
-  color: #D8000C !important;
-  background-color: #FFD2D2 !important;
+  color: #d8000c !important;
+  background-color: #ffd2d2 !important;
 }
 
 .fabric--error--nobg {
-  color: #D8000C !important;
+  color: #d8000c !important;
 }
 
 .fabric--error--inverted {
-  color: #FFD2D2 !important;
-  background-color: #D8000C !important;
+  color: #ffd2d2 !important;
+  background-color: #d8000c !important;
 }
 
-.fabric--seam, hr {
+.fabric--seam,
+hr {
   color: black;
-  opacity: .12;
+  opacity: 0.12;
   line-height: 1px;
   padding: 0px;
   margin: 0px;

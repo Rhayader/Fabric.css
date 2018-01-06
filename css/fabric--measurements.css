@@ -1,5 +1,7 @@
 /*Heights*/
-.fabric--height--56dp, .fabric--app--bar, .fabric--app--bar--spacing {
+.fabric--height--56dp,
+.fabric--app--bar,
+.fabric--app--bar--spacing {
   height: 56px;
 }
 
@@ -11,7 +13,8 @@
   height: 8px;
 }
 
-.fabric--height--72dp, .fabric--card .fabric--card--header {
+.fabric--height--72dp,
+.fabric--card .fabric--card--header {
   height: 72px;
 }
 
@@ -19,23 +22,16 @@
   height: 16px;
 }
 /*Widths*/
-.fabric--width--100, .fabric--app--bar, .fabric--background {
+.fabric--width--100,
+.fabric--app--bar,
+.fabric--background {
   width: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .fabric--card {
   width: inherit;
-}
-
-.fabric--responsive--width--50 {
-  float: left;
-  max-width: calc(50% - 16px);
-  min-width: calc(50% - 16px);
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 16px;
-  margin-right: 16px;
 }
 
 /*Placement*/
@@ -49,12 +45,13 @@
   left: 28px;
 }
 
+/*12 column grid layout*/
 .fabric--row {
-  width-min: 100%;
-  width-max: 100%;
+  min-width: calc(100% - 16px);
+  max-width: calc(100% - 16px);
   clear: both;
   padding: 8px;
-  badding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .fabric--col--12 {
@@ -163,4 +160,16 @@
   padding-bottom: 0px;
   display: inline-block;
   float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="fabric--col--"] {
+    max-width: calc(100% / 12 * 12 - 16px);
+    min-width: calc(100% / 12 * 12 - 16px);
+    padding: 8px;
+    padding-bottom: 0px;
+    display: inline-block;
+    float: left;
+  }
 }

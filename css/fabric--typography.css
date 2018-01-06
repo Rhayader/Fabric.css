@@ -3,53 +3,8 @@
 */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,300italic,400italic,500italic,700italic);
 
-/*
-  Set the default 12sp font size for different pixel densities
-*/
-/*ldpi (low) ~120dpi*/
-@media only screen and (max-resolution: 120dpi) {
-  html {
-    font-size: 12px;
-  }
-}
-
-/*mdpi (medium) ~160dpi*/
-@media only screen and (min-resolution: 121dpi) and (max-resolution: 160dpi) {
-  html {
-    font-size: 16px;
-  }
-}
-
-/*hdpi (high) ~240dpi*/
-@media only screen and (min-resolution: 161dpi) and (min-resolution: 240dpi) {
-  html {
-    font-size: 24px;
-  }
-}
-
-/*xhdpi (extra-high) ~320dpi*/
-@media only screen and (min-resolution: 241dpi) and (min-resolution: 320dpi) {
-  html {
-    font-size: 32px;
-  }
-}
-
-/*xxhdpi (extra-extra-high) ~480dpi*/
-@media only screen and (min-resolution: 480dpi) {
-  html {
-    font-size: 48px;
-  }
-}
-
-/*xxxhdpi (extra-extra-extra-high) ~640dpi*/
-@media only screen and (min-resolution: 640dpi) {
-  html {
-    font-size: 64px;
-  }
-}
-
 body {
-  font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial';
+  font-family: "Roboto", "Helvetica Neue, Helvetica, Arial";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -62,15 +17,26 @@ body {
 /*
   Font weights
 */
-.fabric--font--weight--light, .fabric--display--4 {
+.fabric--font--weight--light,
+.fabric--display--4 {
   font-weight: 300;
 }
 
-.fabric--font--weight--regular, .fabric--display--3, .fabric--display--2, .fabric--display--1, .fabric--headline, .fabric--subheading, .fabric--body--1, .fabric--caption {
+.fabric--font--weight--regular,
+.fabric--display--3,
+.fabric--display--2,
+.fabric--display--1,
+.fabric--headline,
+.fabric--subheading,
+.fabric--body--1,
+.fabric--caption {
   font-weight: 400;
 }
 
-.fabric--font--weight--medium, .fabric--title, .fabric--body--2, .fabric--button {
+.fabric--font--weight--medium,
+.fabric--title,
+.fabric--body--2,
+.fabric--button {
   font-weight: 500;
 }
 
@@ -81,88 +47,110 @@ body {
 /*
   Font sizes
 */
-.fabric--font--size--112sp, .fabric--display--4 {
+.fabric--font--size--112sp,
+.fabric--display--4 {
   font-size: 112px;
 }
 
-.fabric--font--size--56sp, .fabric--display--3 {
+.fabric--font--size--56sp,
+.fabric--display--3 {
   font-size: 56px;
 }
 
-.fabric--font--size--45sp, .fabric--display--2 {
+.fabric--font--size--45sp,
+.fabric--display--2 {
   font-size: 45px;
 }
 
-.fabric--font--size--34sp, .fabric--display--1 {
+.fabric--font--size--34sp,
+.fabric--display--1 {
   font-size: 34px;
 }
 
-.fabric--font--size--24sp, .fabric--headline {
+.fabric--font--size--24sp,
+.fabric--headline {
   font-size: 24px;
 }
 
-.fabric--font--size--20sp, .fabric--title {
+.fabric--font--size--20sp,
+.fabric--title {
   font-size: 20px;
 }
 
-.fabric--font--size--16sp, .fabric--subheading {
+.fabric--font--size--16sp,
+.fabric--subheading {
   font-size: 16px;
 }
 
-.fabric--font--size--14sp, .fabric--body--1, .fabric--body--2, .fabric--button {
+.fabric--font--size--14sp,
+.fabric--body--1,
+.fabric--body--2,
+.fabric--button {
   font-size: 14px;
 }
 
-.fabric--font--size--12sp, .fabric--caption {
+.fabric--font--size--12sp,
+.fabric--caption {
   font-size: 12px;
 }
 
 /*
   Line spacing
 */
-.fabric--font--leading--128dp, .fabric--display--4 {
+.fabric--font--leading--128dp,
+.fabric--display--4 {
   line-height: 128px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--64dp, .fabric--display--3 {
+.fabric--font--leading--64dp,
+.fabric--display--3 {
   line-height: 64px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--48dp, .fabric--display--2 {
+.fabric--font--leading--48dp,
+.fabric--display--2 {
   line-height: 48px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--40dp, .fabric--display--1 {
+.fabric--font--leading--40dp,
+.fabric--display--1 {
   line-height: 40px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--32dp, .fabric--headline {
+.fabric--font--leading--32dp,
+.fabric--headline {
   line-height: 32px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--28dp, .fabric--title {
+.fabric--font--leading--28dp,
+.fabric--title {
   line-height: 28px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--24dp, .fabric--subheading, .fabric--body--2 {
+.fabric--font--leading--24dp,
+.fabric--subheading,
+.fabric--body--2 {
   line-height: 24px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fabric--font--leading--20dp, .fabric--body--1, .fabric--caption, .fabric--button {
+.fabric--font--leading--20dp,
+.fabric--body--1,
+.fabric--caption,
+.fabric--button {
   line-height: 20px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -171,41 +159,63 @@ body {
 /*
   Font contrasts
 */
-.fabric--font--contrast--54, .fabric--display--4, .fabric--display--3, .fabric--display--2, .fabric--display--1, .fabric--caption, .material-icons, .fabric--button:hover {
-  opacity: .54;
+.fabric--font--contrast--54,
+.fabric--display--4,
+.fabric--display--3,
+.fabric--display--2,
+.fabric--display--1,
+.fabric--caption,
+.material-icons,
+.fabric--button:hover {
+  opacity: 0.54;
 }
 
-.fabric--font--contrast--87, .fabric--headline, .fabric--title, .fabric--subheading, .fabric--body--2, .fabric--body--1, .fabric--button {
-  opacity: .87;
+.fabric--font--contrast--87,
+.fabric--headline,
+.fabric--title,
+.fabric--subheading,
+.fabric--body--2,
+.fabric--body--1,
+.fabric--button {
+  opacity: 0.87;
 }
 
 /*
   Font tracking, 1000p tracking = 1em, but we want parent-relative values, so % will work.
   Thus, 1000p tracking=100%; and 1p tracking=0.1%
 */
-.fabric--font--tracking--minus--10, .fabric--display--4 {
+.fabric--font--tracking--minus--10,
+.fabric--display--4 {
   letter-spacing: -1%;
 }
 
-.fabric--font--tracking--minus--5, .fabric--display--3 {
+.fabric--font--tracking--minus--5,
+.fabric--display--3 {
   letter-spacing: -0.5%;
 }
 
-.fabric--font--tracking--5, .fabric--title {
+.fabric--font--tracking--5,
+.fabric--title {
   letter-spacing: 0.5%;
 }
 
-.fabric--font--tracking--10, .fabric--subheading, .fabric--body--2, .fabric--body--1, .fabric--button {
+.fabric--font--tracking--10,
+.fabric--subheading,
+.fabric--body--2,
+.fabric--body--1,
+.fabric--button {
   letter-spacing: 1%;
 }
 
-.fabric--font--tracking--20, .fabric--caption {
+.fabric--font--tracking--20,
+.fabric--caption {
   letter-spacing: 2%;
 }
 
 /*
   Additional effects
 */
-.fabric--all--caps, .fabric--button {
+.fabric--all--caps,
+.fabric--button {
   text-transform: uppercase;
 }
