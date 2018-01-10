@@ -230,7 +230,8 @@
 .fabric--app--bar,
 .fabric--background,
 .fabric--card .fabric--card--media,
-.fabric--card .fabric--card--media img {
+.fabric--card .fabric--card--media img,
+.fabric--card--header {
   min-width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -284,8 +285,9 @@
 .fabric--fab,
 .fabric--app--bar,
 .fabric--app--bar--spacing,
-.fabric--bottom navigation,
-.fabric--card .fabric--card--action--area {
+.fabric--bottom--navigation,
+.fabric--card .fabric--card--action--area,
+.fabric--card--header {
   min-height: 56px;
   max-height: 56px;
   overflow-y: hidden;
@@ -297,8 +299,7 @@
   overflow-y: hidden;
 }
 
-.fabric--height--72dp,
-.fabric--card .fabric--card--header {
+.fabric--height--72dp {
   min-height: 72px;
   max-height: 72px;
   overflow-y: hidden;
@@ -337,7 +338,8 @@
 .fabric--card .fabric--card--media img,
 .fabric--card .fabric--card--media,
 .fabric--card .fabric--card--header p,
-.fabric--card {
+.fabric--card,
+.fabric--card--header {
   padding-top: 0px;
 }
 
@@ -352,13 +354,13 @@
 .fabric--card .fabric--card--media img,
 .fabric--card .fabric--card--media,
 .fabric--card .fabric--card--header p,
-.fabric--card {
+.fabric--card,
+.fabric--card--header {
   padding-bottom: 0px;
 }
 
 .fabric--padding--bottom--16dp,
-.fabric--card .fabric--card--text,
-.fabric--card .fabric--card--header {
+.fabric--card .fabric--card--text {
   padding-bottom: 16px;
 }
 /*Left padding*/
