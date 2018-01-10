@@ -1,0 +1,475 @@
+/*
+  Placement for corner FABs
+*/
+.fabric--bottom--right {
+  position: fixed;
+  display: block;
+  bottom: 28px;
+  right: 28px;
+}
+
+.fabric--top--left {
+  position: fixed;
+  display: block;
+  top: 28px;
+  left: 28px;
+}
+
+.fabric--bottom--left {
+  position: fixed;
+  display: block;
+  bottom: 28px;
+  left: 28px;
+}
+
+.fabric--top--right {
+  position: fixed;
+  display: block;
+  top: 28px;
+  right: 28px;
+}
+
+/*
+  12 column grid layout
+*/
+.fabric--row {
+  min-width: calc(100% - 16px);
+  max-width: calc(100% - 16px);
+  clear: both;
+  padding: 8px;
+  padding-bottom: 0px;
+}
+
+.fabric--col--12 {
+  max-width: calc(100% / 12 * 12 - 16px);
+  min-width: calc(100% / 12 * 12 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--11 {
+  max-width: calc(100% / 12 * 11 - 16px);
+  min-width: calc(100% / 12 * 11 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--10 {
+  max-width: calc(100% / 12 * 10 - 16px);
+  min-width: calc(100% / 12 * 10 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--9 {
+  max-width: calc(100% / 12 * 9 - 16px);
+  min-width: calc(100% / 12 * 9 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--8 {
+  max-width: calc(100% / 12 * 8 - 16px);
+  min-width: calc(100% / 12 * 8 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--7 {
+  max-width: calc(100% / 12 * 7 - 16px);
+  min-width: calc(100% / 12 * 7 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--6 {
+  max-width: calc(100% / 12 * 6 - 16px);
+  min-width: calc(100% / 12 * 6 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--5 {
+  max-width: calc(100% / 12 * 5 - 16px);
+  min-width: calc(100% / 12 * 5 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--4 {
+  max-width: calc(100% / 12 * 4 - 16px);
+  min-width: calc(100% / 12 * 4 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--3 {
+  max-width: calc(100% / 12 * 3 - 16px);
+  min-width: calc(100% / 12 * 3 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--2 {
+  max-width: calc(100% / 12 * 2 - 16px);
+  min-width: calc(100% / 12 * 2 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+.fabric--col--1 {
+  max-width: calc(100% / 12 * 1 - 16px);
+  min-width: calc(100% / 12 * 1 - 16px);
+  padding: 8px;
+  padding-bottom: 0px;
+  display: inline-block;
+  float: left;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="fabric--col--"] {
+    max-width: calc(100% / 12 * 12 - 16px);
+    min-width: calc(100% / 12 * 12 - 16px);
+    padding: 8px;
+    padding-bottom: 0px;
+    display: inline-block;
+    float: left;
+  }
+}
+
+/*
+  Component width section
+*/
+/*Fixed width components*/
+.fabric--width--1dp {
+  min-width: 1px;
+  max-width: 1px;
+  overflow-x: hidden;
+}
+
+.fabric--width--8dp {
+  min-width: 8px;
+  max-width: 8px;
+  overflow-x: hidden;
+}
+
+.fabric--width--16dp {
+  min-width: 16px;
+  max-width: 16px;
+  overflow-x: hidden;
+}
+
+.fabric--width--24dp,
+.fabric--icon {
+  min-width: 24px;
+  max-width: 24px;
+  overflow-x: hidden;
+}
+
+.fabric--width--40dp {
+  min-width: 40px;
+  max-width: 40px;
+  overflow-x: hidden;
+}
+
+.fabric--width--56dp,
+.fabric--fab {
+  min-width: 56px;
+  max-width: 56px;
+  overflow-x: hidden;
+}
+
+.fabric--width--64dp {
+  min-width: 64px;
+  max-width: 64px;
+  overflow-x: hidden;
+}
+
+.fabric--width--72dp {
+  min-width: 72px;
+  max-width: 72px;
+  overflow-x: hidden;
+}
+
+.fabric--width--96dp {
+  min-width: 96px;
+  max-width: 96px;
+  overflow-x: hidden;
+}
+
+.fabric--width--112dp {
+  min-width: 112px;
+  max-width: 112px;
+  overflow-x: hidden;
+}
+/*Dynamic width components*/
+.fabric--width--100,
+.fabric--app--bar,
+.fabric--background,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--media img {
+  min-width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/*Automatic width components*/
+.fabric--width--auto,
+.fabric--app--bar .fabric--nav--element,
+.fabric--content,
+.fabric--container p {
+  min-width: auto;
+  max-width: auto;
+}
+/*
+  Component height section
+*/
+/*Fixed height components*/
+.fabric--height--1dp,
+.fabric--seam,
+.fabric--container hr {
+  min-height: 1px;
+  max-height: 1px;
+  overflow-y: hidden;
+}
+
+.fabric--height--8dp {
+  min-height: 8px;
+  max-height: 8px;
+  overflow-y: hidden;
+}
+
+.fabric--height--16dp {
+  min-height: 16px;
+  max-height: 16px;
+  overflow-y: hidden;
+}
+
+.fabric--height--24dp,
+.fabric--icon {
+  min-height: 24px;
+  max-height: 24px;
+  overflow-y: hidden;
+}
+
+.fabric--height--40dp {
+  min-height: 40px;
+  max-height: 40px;
+  overflow-y: hidden;
+}
+
+.fabric--height--56dp,
+.fabric--fab,
+.fabric--app--bar,
+.fabric--app--bar--spacing,
+.fabric--bottom navigation,
+.fabric--card .fabric--card--action--area {
+  min-height: 56px;
+  max-height: 56px;
+  overflow-y: hidden;
+}
+
+.fabric--height--64dp {
+  min-height: 64px;
+  max-height: 64px;
+  overflow-y: hidden;
+}
+
+.fabric--height--72dp,
+.fabric--card .fabric--card--header {
+  min-height: 72px;
+  max-height: 72px;
+  overflow-y: hidden;
+}
+
+.fabric--height--96dp {
+  min-height: 96px;
+  max-height: 96px;
+  overflow-y: hidden;
+}
+
+.fabric--height--112dp {
+  min-height: 112px;
+  max-height: 112px;
+  overflow-y: hidden;
+}
+/*Dynamic height components*/
+.fabric--height--100 {
+  min-height: 100%;
+  max-height: 100%;
+}
+/*Automatic height components*/
+.fabric--height--auto,
+.fabric--content,
+.fabric--container p,
+.fabric--card .fabric--card--media img {
+  min-height: auto;
+  max-height: auto;
+}
+/*
+  Component inner spacing section (padding)
+*/
+/*Top padding*/
+.fabric--padding--top--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card {
+  padding-top: 0px;
+}
+
+.fabric--padding--top--16dp,
+.fabric--card .fabric--card--text,
+.fabric--card .fabric--card--header {
+  padding-top: 16px;
+}
+/*Bottom padding*/
+.fabric--padding--bottom--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card {
+  padding-bottom: 0px;
+}
+
+.fabric--padding--bottom--16dp,
+.fabric--card .fabric--card--text,
+.fabric--card .fabric--card--header {
+  padding-bottom: 16px;
+}
+/*Left padding*/
+.fabric--padding--left--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card {
+  padding-left: 0px;
+}
+
+.fabric--padding--left--16dp,
+.fabric--card .fabric--card--text,
+.fabric--card .fabric--card--header {
+  padding-left: 16px;
+}
+/*Right padding*/
+.fabric--padding--right--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card {
+  padding-right: 0px;
+}
+
+.fabric--padding--right--16dp,
+.fabric--card .fabric--card--text,
+.fabric--card .fabric--card--header {
+  padding-right: 16px;
+}
+/*
+  Component outer spacing section (margin)
+*/
+/*Top margin*/
+.fabric--margin--top--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card .fabric--card--header {
+  margin-top: 0px;
+}
+
+.fabric--margin--top--8dp,
+.fabric--card .fabric--card--header .fabric--icon {
+  margin-top: 8px;
+}
+
+.fabric--margin--top--14dp,
+.fabric--app--bar .fabric--title {
+  margin-top: 14px;
+}
+
+.fabric--margin--top--16dp,
+.fabric--fab .fabric--icon,
+.fabric--app--bar .fabric--icon,
+.fabric--card .fabric--card--action--area .fabric--button {
+  margin-top: 16px;
+}
+
+.fabric--margin--top--20dp,
+.fabric--app--bar .fabric--button {
+  margin-top: 20px;
+}
+/*Bottom margin*/
+.fabric--margin--bottom--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card .fabric--card--header {
+  margin-bottom: 0px;
+}
+
+.fabric--margin--bottom--16dp,
+.fabric--fab .fabric--icon {
+  margin-bottom: 16px;
+}
+/*Left margin*/
+.fabric--margin--left--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card .fabric--card--header {
+  margin-left: 0px;
+}
+
+.fabric--margin--left--16dp,
+.fabric--fab .fabric--icon,
+.fabric--app--bar .fabric--button,
+.fabric--app--bar .fabric--nav--element,
+.fabric--app--bar .fabric--title,
+.fabric--card .fabric--card--action--area .fabric--button {
+  margin-left: 16px;
+}
+
+/*Right margin*/
+.fabric--margin--right--0dp,
+.fabric--app--bar ul,
+.fabric--card .fabric--card--media img,
+.fabric--card .fabric--card--media,
+.fabric--card .fabric--card--header p,
+.fabric--card .fabric--card--header {
+  margin-right: 0px;
+}
+
+.fabric--margin--right--16dp,
+.fabric--fab .fabric--icon,
+.fabric--card .fabric--card--header .fabric--icon {
+  margin-right: 16px;
+}

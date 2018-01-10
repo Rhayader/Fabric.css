@@ -4,19 +4,23 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 /*Internal packages*/
-@import url("fabric--elements.css");
+@import url("fabric--layout.css");
+@import url("fabric--palette.css");
 @import url("fabric--typography.css");
-@import url("fabric--shadows.css");
-@import url("fabric--measurements.css");
-@import url("fabric--icons.css");
-@import url("fabric--colors.css");
+@import url("fabric--elevation.css");
+@import url("fabric--components.css");
 
 /*
-  Additional resets
+  Additional overrides
 */
 .fabric--container a {
   text-decoration: none;
   color: inherit;
+}
+
+.material-icons {
+  padding: 0px;
+  margin: 0px;
 }
 
 :target:before {
@@ -24,4 +28,15 @@
   display: block;
   height: 5.6rem; /* fixed header height*/
   margin: -5.6rem 0 0; /* negative fixed header height */
+}
+
+.fabric--unselectable--text,
+.fabric--button,
+.fabric--fab {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
