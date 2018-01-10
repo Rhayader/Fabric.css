@@ -13,18 +13,18 @@ Unlike many other CSS frameworks, Fabric.css is highly modifiable, consistent an
 ### Dependencies
 
 The main stub includes links to all the dependencies used by the project. At this point, those are:
--[Normalize.css](https://necolas.github.io/normalize.css/)
--[Material icons](https://material.io/icons/)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
+- [Material icons](https://material.io/icons/)
 
 ### The files included with the project
 Fabric.css is highly modular. Each module performs a certain function and might be replaced or removed if the user wishes.
--**fabric.css** The main stub, used to load dependencies and the modules of the project. Also contains additional overrides. This is the file you should include in your HTML for Fabric.css to function.
--**animation.css** Handles the animations and their durations.
--**components.css** Component-specific classes (rounded corners, etc., separate for each component), which do not require consistency in the code.
--**elevation.css** Elevations - z-index and shadow values for different component groups.
--**layout.css** 12 column grid layout, as well as measurements and spacing of component groups.
--**palette.css** The color palette of Fabric.css
--**typography.css** Typography-related CSS classes.
+- **fabric.css** The main stub, used to load dependencies and the modules of the project. Also contains additional overrides. This is the file you should include in your HTML for Fabric.css to function.
+- **animation.css** Handles the animations and their durations.
+- **components.css** Component-specific classes (rounded corners, etc., separate for each component), which do not require consistency in the code.
+- **elevation.css** Elevations - z-index and shadow values for different component groups.
+- **layout.css** 12 column grid layout, as well as measurements and spacing of component groups.
+- **palette.css** The color palette of Fabric.css
+- **typography.css** Typography-related CSS classes.
 
 ### Documentation
 
