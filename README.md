@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## FABRIC.CSS
 
-You can use the [editor on GitHub](https://github.com/Rhayader/Fabric.css/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Fabric.css is a pure CSS3 framework built using the principles of [Google Material Design](https://material.io).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Fabric.css was built with usability and performance in mind. Being in early stages of development, it still lacks some core functionality. Also, it isolates its classes as much as possible to make it compatible with other frameworks and CSS libraries, but if those libraries use !important to override CSS values used by Fabric.css, that might be a problem.
 
-### Markdown
+Want to play with the code on CodePen? [Here's the link!](https://codepen.io/songoffall/project/editor/DGREEB)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Why use Fabric.css?
 
-```markdown
-Syntax highlighted code block
+Unlike many other CSS frameworks, Fabric.css is highly modifiable, consistent and both desktop and mobile friendly. It is also open source (more in "Licensing").
 
-# Header 1
-## Header 2
-### Header 3
+### Dependencies
 
-- Bulleted
-- List
+The main stub includes links to all the dependencies used by the project. At this point, those are:
+-[Normalize.css](https://necolas.github.io/normalize.css/)
+-[Material icons](https://material.io/icons/)
 
-1. Numbered
-2. List
+### The files included with the project
+Fabric.css is highly modular. Each module performs a certain function and might be replaced or removed if the user wishes.
+-**fabric.css** The main stub, used to load dependencies and the modules of the project. Also contains additional overrides. This is the file you should include in your HTML for Fabric.css to function.
+-**animation.css** Handles the animations and their durations.
+-**components.css** Component-specific classes (rounded corners, etc., separate for each component), which do not require consistency in the code.
+-**elevation.css** Elevations - z-index and shadow values for different component groups.
+-**layout.css** 12 column grid layout, as well as measurements and spacing of component groups.
+-**palette.css** The color palette of Fabric.css
+-**typography.css** Typography-related CSS classes.
 
-**Bold** and _Italic_ and `Code` text
+### Documentation
 
-[Link](url) and ![Image](src)
-```
+Sadly, there is none at the moment. There's a demo **index.html** file included with Fabric.css you can take a look at. Once Fabric.css is fully functional, I'll build a complete documentation around it.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The code itself is fairly simple and easy to understand and modify.
 
-### Jekyll Themes
+### Licensing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rhayader/Fabric.css/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Fabric.css was created by Bayandur "Rhayader" Poghosyan. It is available under **Creative Commons Attribution 4.0** license. You are encouraged to contribute to Fabric.css, adapt, use or modify it as you see fit.
