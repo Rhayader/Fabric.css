@@ -29,14 +29,17 @@ body {
 .fabric--headline,
 .fabric--subheading,
 .fabric--body--1,
-.fabric--caption {
+.fabric--caption,
+.fabric--text--column,
+.fabric--numeric--column {
   font-weight: 400;
 }
 
 .fabric--font--weight--medium,
 .fabric--title,
 .fabric--body--2,
-.fabric--button {
+.fabric--button,
+.fabric--data--table .fabric--table--header {
   font-weight: 500;
 }
 
@@ -85,7 +88,9 @@ body {
 .fabric--font--size--14sp,
 .fabric--body--1,
 .fabric--body--2,
-.fabric--button {
+.fabric--button,
+.fabric--text--column,
+.fabric--numeric--column {
   font-size: 14px;
 }
 
@@ -150,7 +155,9 @@ body {
 .fabric--font--leading--20dp,
 .fabric--body--1,
 .fabric--caption,
-.fabric--button {
+.fabric--button,
+.fabric--text--column,
+.fabric--numeric--column {
   line-height: 20px;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -166,7 +173,8 @@ body {
 .fabric--display--1,
 .fabric--caption,
 .material-icons,
-.fabric--button:hover {
+.fabric--button:hover,
+.fabric--data--table .fabric--table--header {
   opacity: 0.54;
 }
 
@@ -176,7 +184,11 @@ body {
 .fabric--subheading,
 .fabric--body--2,
 .fabric--body--1,
-.fabric--button {
+.fabric--button,
+.fabric--data--table .fabric--text--column,
+.fabric--data--table .fabric--numeric--column,
+.fabric--text--column,
+.fabric--numeric--column {
   opacity: 0.87;
 }
 
@@ -203,7 +215,10 @@ body {
 .fabric--subheading,
 .fabric--body--2,
 .fabric--body--1,
-.fabric--button {
+.fabric--button,
+.fabric--data--table .fabric--table--header,
+.fabric--text--column,
+.fabric--numeric--column {
   letter-spacing: 1%;
 }
 

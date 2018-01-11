@@ -15,19 +15,55 @@
         <div class="fabric--card">
           <div class="fabric--card--header">
             <div class="fabric--icon"><i class="material-icons">note</i></div>
-            <p class="fabric--body--2">What is Fabric.css?</p>
+            <h2 class="fabric--body--2">What is Fabric.css?</h2>
             <p class="fabric--body--1">A brief introduction to the framework</p>
           </div>
           <hr />
           <div class="fabric--card--text">
-            <h2 class="fabric--display--1">A pure CSS3 framework based on Google Material Design</h2>
-            <p class="fabric--subheading">Fabric.css was built with usability and performance in mind. Being in early stages of development, Fabric still lacks most core components, as well as animations and responsive layout support. These features are planned to be added in Q1 2018.</p>
-            <h2 class="fabric--display--1">Free and open source</h2>
-            <p class="fabric--subheading">The source code of Fabric.css is available on Codepen and Github free of charge, under Creative Commons Attribution 4.0 license.</p>
+            <article>
+              <h2 class="fabric--display--1">Fabric.css is a pure CSS3 framework built using the principles of Google Material Design.</h2>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">Fabric.css was built with usability and performance in mind. Being in early stages of development, it still lacks some core functionality. Also, it isolates its classes as much as possible to make it compatible with other frameworks and
+                CSS libraries, but if those libraries use !important to override CSS values used by Fabric.css, that might be a problem.</p>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">Want to play with the code on CodePen? <a class="fabric--button fabric--info--nobg" href="https://codepen.io/songoffall/project/editor/DGREEB" rel=nofollow target=_blank alt="Codepen">Here's a link!</a></p>
+              <p class="fabric--subheading"><br /></p>
+              <h2 class="fabric--display--1">Why use Fabric.css?</h2>
+              <p class="fabric--subheading">Unlike many other CSS frameworks, Fabric.css is lightweight, highly modifiable, consistent and both desktop and mobile friendly. It is also open source (more in "Licensing").</p>
+              <p class="fabric--subheading"><br /></p>
+              <h2 class="fabric--display--1">Dependencies</h2>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">The main stub includes links to all the dependencies used by the project. At this point, those are:</p>
+              <ul>
+                <li><a class="fabric--button fabric--info--nobg" href="https://necolas.github.io/normalize.css/" rel=nofollow target=_blank alt="Normalize.css">Normalize.css</a></li>
+                <li><a class="fabric--button fabric--info--nobg" href="https://material.io/icons/" rel=nofollow target=_blank alt="Material Icons">Material Icons Font</a></li>
+              </ul>
+              <h2 class="fabric--display--1">Dependencies</h2>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">Fabric.css is highly modular. Each module performs a certain function and might be replaced or removed if the user wishes.</p>
+              <ul>
+                <li class="fabric--subheading"><strong>fabric.css</strong><br /> The main stub. It imports the dependencies, the modules and applies some global overrides.</li>
+                <li class="fabric--subheading"><strong>fabric--layout.css</strong><br /> Layout adjustments. The 12 column grid, component widths, heights, spacing, ett.</li>
+                <li class="fabric--subheading"><strong>fabric--elevation.css</strong><br /> Elevation-related data. Shadows and z-index.</li>
+                <li class="fabric--subheading"><strong>fabric--palette.css</strong><br /> Colors used by Fabric.css.</li>
+                <li class="fabric--subheading"><strong>fabric--typography.css</strong><br /> Typography-related data.</li>
+                <li class="fabric--subheading"><strong>fabric--animation.css</strong><br /> Animation speeds for component groups.</li>
+                <li class="fabric--subheading"><strong>fabric--components.css</strong><br /> Data related to the individual component styles, where consistency is not required.</li>
+              </ul>
+              <h2 class="fabric--display--1">Documentation</h2>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">Sadly, there is none at the moment. There's a demo index.html file included with Fabric.css you can take a look at. Once Fabric.css is fully functional, I'll build a complete documentation around it.</p>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">The code itself is fairly simple and easy to understand and modify.</p>
+              <p class="fabric--subheading"><br /></p>
+              <h2 class="fabric--display--1">Licensing</h2>
+              <p class="fabric--subheading"><br /></p>
+              <p class="fabric--subheading">Fabric.css was created by Bayandur "Rhayader" Poghosyan. It is available under <strong>Creative Commons Attribution 4.0 license<strong>. You are encouraged to contribute to Fabric.css, adapt, use or modify it as you see fit under the conditions of the said license.</p>
+            </article>
           </div>
           <div class="fabric--card--action--area">
             <hr />
-            <p class="fabric--button fabric--info--nobg"><a href="https://github.com/Rhayader/Fabric.css" rel=nofollow alt="Github" target=blank>Get code on GitHub</a></p>
+            <p class="fabric--button fabric--info--nobg"><a href="https://github.com/Rhayader/Fabric.css" rel=nofollow alt="Github" target=_blank>Get code on GitHub</a></p>
           </div>
         </div>
       </div>
@@ -121,18 +157,79 @@
             <p class="fabric--body--1">Text styles in Fabric.css</p>
           </div>
           <hr />
-          <div class="fabric--card--text">
-            <p class="fabric--display--4">Display 4</p>
-            <p class="fabric--display--3">Display 3</p>
-            <p class="fabric--display--2">Display 2</p>
-            <p class="fabric--display--1">Display 1</p>
-            <p class="fabric--headline">Headline</p>
-            <p class="fabric--title">Title</p>
-            <p class="fabric--subheading">Subheading</p>
-            <p class="fabric--body--2">Body 2</p>
-            <p class="fabric--body--1">Body 1</p>
-            <p class="fabric--caption">Caption</p>
-            <p class="fabric--button">Button</p>
+          <div class="fabric--card--media">
+            <div class="fabric--data--table">
+              <div class="fabric--row">
+                <div class="fabric--table--header fabric--col--3">Class</div>
+                <div class="fabric--table--header fabric--col--9">Result</div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--display--4</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--display--4">Display 4</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--display--3</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--display--3">Display 3</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--display--2</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--display--2">Display 2</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--display--1</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--display--1">Display 1</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--headline</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--headline">Headline</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--title</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--title">Title</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--subheading</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--subheading">Subheading</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--body--2</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--body--2">Body 2</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--body--1</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--body--1">Body 1</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--caption</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--caption">Caption</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--button</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--button">Button</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -147,25 +244,91 @@
             <p class="fabric--body--1">Colors in Fabric.css</p>
           </div>
           <hr />
-          <div class="fabric--card--text">
-            <p class="fabric--display--1">Normal</p>
-            <p class="fabric--button">Normal text</p>
-            <p class="fabric--display--1">Info</p>
-            <p class="fabric--button fabric--info">Info</p>
-            <p class="fabric--button fabric--info--nobg">Info, no background</p>
-            <p class="fabric--button fabric--info--inverted">Info, inverted</p>
-            <p class="fabric--display--1">Success</p>
-            <p class="fabric--button fabric--success">Success</p>
-            <p class="fabric--button fabric--success--nobg">Success, no background</p>
-            <p class="fabric--button fabric--success--inverted">Success, inverted</p>
-            <p class="fabric--display--1">Warning</p>
-            <p class="fabric--button fabric--warning">Warning</p>
-            <p class="fabric--button fabric--warning--nobg">Warning, no background</p>
-            <p class="fabric--button fabric--warning--inverted">Warning, inverted</p>
-            <p class="fabric--display--1">Error</p>
-            <p class="fabric--button fabric--error">Error</p>
-            <p class="fabric--button fabric--error--nobg">Error, no background</p>
-            <p class="fabric--button fabric--error--inverted">Error, inverted</p>
+          <div class="fabric--card--media">
+            <div class="fabric--data--table">
+              <div class="fabric--row">
+                <div class="fabric--table--header fabric--col--3">Class</div>
+                <div class="fabric--table--header fabric--col--9">Result</div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">(none, fabric--primary)</div>
+                <div class="fabric--text--column fabric--col--9">
+                  <p class="fabric--button">Normal text</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--info</div>
+                <div class="fabric--text--column fabric--col--9 fabric--info">
+                  <p class="fabric--button fabric--info">Info</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--info--nobg</div>
+                <div class="fabric--text--column fabric--col--9 fabric--info--nobg">
+                  <p class="fabric--button fabric--info--nobg">Info, no background</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--info--inverted</div>
+                <div class="fabric--text--column fabric--col--9 fabric--info--inverted">
+                  <p class="fabric--button fabric--info--inverted">Info, inverted</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--success</div>
+                <div class="fabric--text--column fabric--col--9 fabric--success">
+                  <p class="fabric--button fabric--success">Success</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--success--nobg</div>
+                <div class="fabric--text--column fabric--col--9 fabric--success--nobg">
+                  <p class="fabric--button fabric--success--nobg">Success, no background</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--success--inverted</div>
+                <div class="fabric--text--column fabric--col--9 fabric--success--inverted">
+                  <p class="fabric--button fabric--success--inverted">Success, inverted</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--warning</div>
+                <div class="fabric--text--column fabric--col--9 fabric--warning">
+                  <p class="fabric--button fabric--warning">Warning</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--warning--nobg</div>
+                <div class="fabric--text--column fabric--col--9 fabric--warning--nobg">
+                  <p class="fabric--button fabric--warning--nobg">Warning</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--warning--inverted</div>
+                <div class="fabric--text--column fabric--col--9 fabric--warning--inverted">
+                  <p class="fabric--button fabric--warning--inverted">Warning</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--error</div>
+                <div class="fabric--text--column fabric--col--9 fabric--error">
+                  <p class="fabric--button fabric--error">Error</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--error--nobg</div>
+                <div class="fabric--text--column fabric--col--9 fabric--error--nobg">
+                  <p class="fabric--button fabric--error--nobg">Error</p>
+                </div>
+              </div>
+              <div class="fabric--row">
+                <div class="fabric--text--column fabric--col--3">fabric--error--inverted</div>
+                <div class="fabric--text--column fabric--col--9 fabric--error--inverted">
+                  <p class="fabric--button fabric--error--inverted">Error</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -177,7 +340,7 @@
       <div class="fabric--icon"><i class="material-icons">share</i></div>
     </div>
   </div>
-    <div class="fabric--container">
+  <div class="fabric--container">
     <div class="fabric--app--bar">
       <div class="fabric--nav--element">
         <div class="fabric--icon">
