@@ -1,10 +1,15 @@
 .fabric--primary,
 .fabric--app--bar,
-.fabric--container a,
-.fabric--container p,
 .fabric--card {
   color: #000000;
   background-color: #ffffff;
+}
+
+.fabric--primary--nobg,
+.fabric--container a,
+.fabric--container p {
+  color: #000000;
+  background-color: rgba (0, 0, 0, 0);
 }
 
 .fabric--primary--inverted,
@@ -70,13 +75,25 @@
 }
 
 .fabric--seam,
-hr {
+.fabric--container hr {
   color: black;
-  opacity: 0.12;
+  opacity: 0.1;
   line-height: 1px;
   padding: 0px;
   margin: 0px;
   min-height: 1px;
   max-height: 1px;
   border-bottom: 0px solid;
+}
+
+.fabric--gray--200,
+.fabric--data--table .fabric--row:hover .fabric--text--column,
+.fabric--data--table .fabric--row:hover .fabric--numeric--column {
+  background-color: #EEEEEE;
+}
+
+.fabric--gray--100,
+.fabric--data--table .fabric--row:active .fabric--text--column,
+.fabric--tata--table .fabric--row:active .fabric--numeric--column {
+  background-color: F5F5F5;
 }

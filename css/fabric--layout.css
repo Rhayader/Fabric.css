@@ -161,6 +161,113 @@
 }
 
 /*
+  12 column grid layout FOR DATA TABLES
+*/
+.fabric--data--table .fabric--row {
+  min-width: 100%;
+  max-width: 100%;
+  clear: both;
+  padding: 0px;
+  display: flex;
+  flex-flow: row;
+}
+
+.fabric--data--table .fabric--col--12 {
+  max-width: calc(100% / 12 * 12);
+  min-width: calc(100% / 12 * 12);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--11 {
+  max-width: calc(100% / 12 * 11);
+  min-width: calc(100% / 12 * 11);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--10 {
+  max-width: calc(100% / 12 * 10);
+  min-width: calc(100% / 12 * 10);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--9 {
+  max-width: calc(100% / 12 * 9);
+  min-width: calc(100% / 12 * 9);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--8 {
+  max-width: calc(100% / 12 * 8);
+  min-width: calc(100% / 12 * 8);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--7 {
+  max-width: calc(100% / 12 * 7);
+  min-width: calc(100% / 12 * 7);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--6 {
+  max-width: calc(100% / 12 * 6);
+  min-width: calc(100% / 12 * 6);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--5 {
+  max-width: calc(100% / 12 * 5);
+  min-width: calc(100% / 12 * 5);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--4 {
+  max-width: calc(100% / 12 * 4);
+  min-width: calc(100% / 12 * 4);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--3 {
+  max-width: calc(100% / 12 * 3);
+  min-width: calc(100% / 12 * 3);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--2 {
+  max-width: calc(100% / 12 * 2);
+  min-width: calc(100% / 12 * 2);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+
+.fabric--data--table .fabric--col--2 {
+  max-width: calc(100% / 12 * 2);
+  min-width: calc(100% / 12 * 2);
+  display: flex;
+  flex-flow: column;
+  float: left;
+}
+/*
   Component width section
 */
 /*Fixed width components*/
@@ -231,7 +338,8 @@
 .fabric--background,
 .fabric--card .fabric--card--media,
 .fabric--card .fabric--card--media img,
-.fabric--card--header {
+.fabric--card--header,
+.fabric--data--table {
   min-width: 100%;
   max-width: 100%;
   overflow-x: hidden;
@@ -240,7 +348,8 @@
 .fabric--width--auto,
 .fabric--app--bar .fabric--nav--element,
 .fabric--content,
-.fabric--container p {
+.fabric--container p,
+.fabric--button {
   min-width: auto;
   max-width: auto;
 }
@@ -287,13 +396,14 @@
 .fabric--app--bar--spacing,
 .fabric--bottom--navigation,
 .fabric--card .fabric--card--action--area,
-.fabric--card--header {
+.fabric--card--header{
   min-height: 56px;
   max-height: 56px;
   overflow-y: hidden;
 }
 
-.fabric--height--64dp {
+.fabric--height--64dp,
+.fabric--data--table .fabric--table--header {
   min-height: 64px;
   max-height: 64px;
   overflow-y: hidden;
@@ -317,7 +427,10 @@
   overflow-y: hidden;
 }
 /*Dynamic height components*/
-.fabric--height--100 {
+.fabric--height--100,
+.fabric--data--table .fabric--text--column,
+.fabric--data--table .fabric--numeric--column,
+.fabric--data--table .fabric--row {
   min-height: 100%;
   max-height: 100%;
 }
@@ -345,10 +458,18 @@
 
 .fabric--padding--top--16dp,
 .fabric--card .fabric--card--text,
-.fabric--card .fabric--card--header {
+.fabric--card .fabric--card--header,
+.fabric--data--table .fabric--text--column,
+.fabric--data--table .fabric--numeric--column {
   padding-top: 16px;
 }
+
+.fabric--padding--top--20dp,
+.fabric--data--table .fabric--table--header {
+  padding-top: 20px;
+}
 /*Bottom padding*/
+
 .fabric--padding--bottom--0dp,
 .fabric--app--bar ul,
 .fabric--card .fabric--card--media img,
@@ -360,8 +481,14 @@
 }
 
 .fabric--padding--bottom--16dp,
-.fabric--card .fabric--card--text {
+.fabric--card .fabric--card--text,
+.fabric--data--table .fabric--text--column,
+.fabric--data--table .fabric--numeric--column {
   padding-bottom: 16px;
+}
+
+.fabric--padding--bottom--20dp {
+  padding-bottom: 20px;
 }
 /*Left padding*/
 .fabric--padding--left--0dp,
@@ -378,6 +505,13 @@
 .fabric--card .fabric--card--header {
   padding-left: 16px;
 }
+
+.fabric--padding--left--56dp,
+.fabric--data--table .fabric--text--column,
+.fabric--data--table .fabric--numeric--column,
+.fabric--data--table .fabric--table--header {
+  padding-left: 56px;
+}
 /*Right padding*/
 .fabric--padding--right--0dp,
 .fabric--app--bar ul,
@@ -392,6 +526,10 @@
 .fabric--card .fabric--card--text,
 .fabric--card .fabric--card--header {
   padding-right: 16px;
+}
+
+.fabric--padding--right--56dp {
+  padding-right: 56px;
 }
 /*
   Component outer spacing section (margin)
@@ -428,6 +566,11 @@
   margin-top: 20px;
 }
 /*Bottom margin*/
+.fabric--margin--bottom--minus--20dp,
+.fabric--data--table .fabric--table--header {
+  margin-bottom: -20px;
+}
+
 .fabric--margin--bottom--0dp,
 .fabric--app--bar ul,
 .fabric--card .fabric--card--media img,
